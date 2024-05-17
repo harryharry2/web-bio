@@ -25,7 +25,6 @@
     background-color: #141416;
     /* bio text color */
     color: white;
-    
 }
 
 /* how high the profile picture sits into the banner */
@@ -70,3 +69,11 @@
     border-width: 8px;
 }
 
+.musicplayer{
+    padding-bottom: 15px;
+}
+
+.audioplayer{
+    background: none;
+    border-radius: 15px;
+}
