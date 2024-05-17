@@ -1,0 +1,23 @@
+*{
+    clear: left;
+    padding: 0px;
+}
+
+.bio-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.bio-links ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 30px;
+}
+
+.picture{
+    height: 200px;
+    width: 200px;
+}
+
