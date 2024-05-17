@@ -1,13 +1,44 @@
 *{
     clear: left;
     padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.background{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
 }
 
 .bio-container{
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 10%;
+    margin: 10% 630px;
+    padding: 0px 20px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    /* bio container color */
+    background-color: #141416;
+    /* bio text color */
+    color: white;
+    
+}
+
+/* how high the profile picture sits into the banner */
+.bio-banner{
+    height: 110px;
+}
+
+
+.bio-banner img{
+    width: 628px;
+    padding: 10px;
+    height: 200px;
+    border-radius: 15px;
 }
 
 .bio-links ul li{
@@ -16,8 +47,26 @@
     padding: 0px 30px;
 }
 
+.bio-links img{
+    height: 40px;
+    width: 40px;
+    transition: transform .2s;
+}
+
+.bio-links img:hover {
+  transform: scale(1.5);
+}
+
+.bio-picture{
+    padding-top: 10px;
+}
+
 .picture{
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
+    border-radius: 90px;
+    /* profile picture outline */
+    border: solid #141416;
+    border-width: 8px;
 }
 
